@@ -1,0 +1,63 @@
+body {
+    font-family: Cursed Timer ULiL;
+}
+
+#container {
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boards {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 21px 0px 15px;
+}
+
+.scoreSection {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreResults {
+    color: #F94F6D;
+    font-size: 90px;
+    padding-top: 15px;
+}
+
+.scoreButtonsGroup {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.plusButton {
+    font-family: Cursed Timer ULiL;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;;
+    font-size: 18px;
+}
